@@ -162,7 +162,7 @@ char cdrive_command_set[]  = { 'm' , '-' , 'w' , 119 , 0 , 2 ,  8+32 ,  8+64 }; 
 
 
 void wait(unsigned int delay) {
-	int w;
+	unsigned int w;
 	for (w = 0 ; w <= delay ; ++w) {
 		//do nothing 
     };//end for 
